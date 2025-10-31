@@ -12,7 +12,6 @@ defineProps({
     <h1 class="green">{{ msg }}</h1>
     <h3>
       You’ve successfully created a project for your lovely girlfriend
-      <img src="../assets/caroline.jpeg"></img>
     </h3>
   </div>
 </template>
