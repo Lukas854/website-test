@@ -8,7 +8,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
 const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 </script>
-lalal
+
 <template>
   <WelcomeItem>
     <template #icon>
