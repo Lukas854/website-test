@@ -1,6 +1,0 @@
-#!/bin/sh
-branch="$(git rev-parse --abbrev-ref HEAD)"
-if [ "$branch" = "main" ]; then
-  echo "🚫 Commit auf main ist blockiert! Bitte neuen Branch erstellen."
-  exit 1
-fi
